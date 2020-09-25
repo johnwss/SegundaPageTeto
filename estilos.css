@@ -1,0 +1,132 @@
+
+body{
+    background-image:url(./imagens/imgfundo.jpeg); 
+    background-size: cover;
+}
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 90px;
+    opacity: 0.7;
+}
+
+.logoHeader{
+  
+    margin-left:25%
+  }
+  
+  .textoNaHeader{
+    
+  margin-top: 25px;  
+  font-size: 7px;
+  margin-right: 20%;
+  color:white;
+  }
+
+
+  .textoNoFooter{
+   
+  margin-top: 2px;  
+  font-size: 7px;
+  margin-right: 20%;
+  color:white;
+  }
+
+
+.encapsulamento{
+    display: flex;
+    justify-content: space-between;
+    padding-left:20%;
+    padding-right:22%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:15%;
+    margin-bottom:15%;
+}
+
+.boxEsquerda{
+    background-color: white;
+    width: 600px;
+    height: 950px;
+    margin-right: 10px;
+}
+
+.boxDireita{
+    background-color: white;
+    width:350px;
+    height:950px;
+    margin-left: 10px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 90px;
+    opacity: 0.7;
+}
+
+.capsulaBoxEsquerda{
+    padding:15px;
+}
+
+.sessao1{
+    
+    background-color: #f5f5f5;
+    width: 550px;
+    height: 250px;
+}
+
+.capsulaBoxDireita{
+    padding:5px;
+}
+
+.sessaoDireita{
+    /* background-color: lightgray; */
+    padding:10px;
+    margin-top:3px;
+    width: 320px;
+    height: 290px;
+}
+
+button{
+
+    justify-content: space-between;
+    margin-left:10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+}
+
+.capsulaBotoes{
+    margin-top: 15px;
+
+
+}
+
+.seletor{
+    margin-top:10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+/* .sessao1--efetuandoDoacao{
+    
+    background-color: #f5f5f5;
+    width: 580px;
+    height: 172px;
+} */
+
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #f5f5f5;
+    border-style: none;
+}
